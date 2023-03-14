@@ -5,8 +5,8 @@ let package = Package(
     name: "VietMapGLNative",
     products: [
         .library(
-            name: "Mapboxx",
-            targets: ["Mapboxx"]),
+            name: "Mapbox",
+            targets: ["Mapbox"]),
         .library(
             name: "MapboxMobileEvents",
             targets: ["MapboxMobileEvents"])  
@@ -15,7 +15,7 @@ let package = Package(
     ],    
     targets: [
         .binaryTarget(
-            name: "Mapboxx",
+            name: "Mapbox",
             url: "https://github.com/thanhdt1998/distribute-sdk/raw/main/Mapbox.xcframework.zip",
             checksum: "648762b04fb7e66bd577c9629d0e35ea385bc2977dd50d7842a244da85c894e2"),
         .binaryTarget(
