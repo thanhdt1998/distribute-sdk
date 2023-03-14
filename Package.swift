@@ -13,6 +13,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mapbox",
-            url: "https://github.com/thanhdt1998/distribute-sdk/blob/main/Mapbox.xcframework.zip",
+            path: "Mapbox.xcframework",
             ]
 )
