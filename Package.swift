@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mapbox",
-            url: "https://github.com/thanhdt1998/distribute-sdk/raw/main/Mapbox.xcframework.zip",
-            checksum: "648762b04fb7e66bd577c9629d0e35ea385bc2977dd50d7842a244da85c894e2"),
+            url: "https://github.com/thanhdt1998/distribute-sdk/raw/main/Mapbox.framework.zip",
+            checksum: "f5538a76972edfb67b8357a8283681cb4595fecf9b9bfa429d75173f23023df9"),
         .binaryTarget(
             name: "MapboxMobileEvents",
             url: "https://github.com/maptiler/maplibre-gl-native/releases/download/ios-v5.9.0/MapboxMobileEvents-5.9.0.zip",
