@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "VietMapGLNative",
+    name: "Mapbox",
     products: [
         .library(
             name: "Mapbox",
